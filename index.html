@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مفروشات بيت العز</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header img {
+            max-width: 120px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .about, .contact {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .about p, .contact p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .contact form input, .contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="شعار بيت العز"> <!-- هنا يتم إضافة رابط الشعار -->
+    <h1>مفروشات بيت العز</h1>
+</header>
+
+<section class="about">
+    <h2>عن بيت العز</h2>
+    <p>نحن في "مفروشات بيت العز" نقدم لك أجمل وأجود المفروشات بأحدث التصاميم التي تناسب ذوقك وتلبي احتياجاتك. اكتشف تشكيلتنا الواسعة الآن.</p>
+</section>
+
+<section class="contact">
+    <h2>اتصل بنا</h2>
+    <p>هل لديك أي استفسار أو تحتاج للمساعدة؟ نحن هنا لخدمتك!</p>
+    <form action="submit_form.php" method="POST">
+        <input type="text" name="name" placeholder="اسمك" required>
+        <input type="email" name="email" placeholder="بريدك الإلكتروني" required>
+        <textarea name="message" placeholder="رسالتك" rows="4" required></textarea>
+        <button type="submit">إرسال</button>
+    </form>
+</section>
+
+</body>
+</html>
